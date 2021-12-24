@@ -4,11 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="develop/css/style.css" type="text/css">
+    <link rel="stylesheet" href="develop/css/style.css">
     <title>Weather Dashboard</title>
 </head>
 <body>
-    
+    <main class="container">
+        <h1>Weather Forecast Dashboard</h1>
+        <section class="search-bar" id="search-bar">
+            <form id="search-form" class="search-form" role="search">
+                <label for="search-text">Enter a location</label>
+                <input id="search-text" class="search-text" type="text" role="searchbox" size="40" placeholder="City, State, Country">
+                <button id="search-btn" class="search-btn" title="submit location" aria-label="City, State, and Country to obtain weather conditions">Submit</button>
+            </form>
+            <div class="date-container">
+                <div class="date" id="date">
+                    December 01, 2021
+                </div>
+            </div>
+        </section>
+
+        <section class="current-forecast" id="current-forecast"></section>
+        <nav class="nav-btn" id="nav-btn"></nav>
+        <section class="daily-forecast" id="daily-forecast"></section>
+
+    </main>
+
     <script src="js/script.js"></script>
 </body>
 </html>
