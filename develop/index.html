@@ -30,7 +30,7 @@
             </div>
         </section>
 
-        <section class="current-forecast" id="current-forecast" role="region" aria-labelledby="weatherlocation">
+        <section class="current-forecast" id="current-forecast" role="region" aria-labelledby="currentforecast-location">
             <h2 id="currentforecast-location" class="currentforecast-location">Current Conditions</h2>
             <div id="currentforecast-conditions" class="currentforecast-conditions"></div>
         </section>
@@ -58,8 +58,11 @@
             </button>
         </nav>
         <hr>
-        <section class="daily-forecast" id="daily-forecast"></section>
-
+        <section class="daily-forecast" id="daily-forecast" role="region" aria-labelledby="dailyforecast-title">
+            <h2 id="dailyforecast-title" class="dailyforecast-title">Five Day Forecast</h2>
+            <div id="dailyforecast-contents" class="dailyforecast-contents"></div>
+        </section>
+        <p id="confirmation" class="offscreen" aria-live="assertive"></p>
     </main>
 
     <script src="js/script.js"></script>
