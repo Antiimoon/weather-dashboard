@@ -35,6 +35,11 @@ main {
     border: 1px solid lightgray;
     border-radius: 10px;
     box-shadow: 1px 1px 2.5px #fff;
+    text-align: center;
+}
+
+h1 {
+    padding: 1.0rem;
 }
 
 hr {
@@ -67,4 +72,25 @@ button {
     border-color: #fff;
 }
 
+.search-bar {
+    padding: 0.5rem 0.5rem 1.5rem;
+}
 
+.search-form {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid lightgray;
+    border-radius: 500px;
+}
+
+.search-text {
+    flex-grow: 1;
+    border: none;
+    margin-right: 0.25rem;
+    background-color: transparent;
+    color: #fff;
+    width: calc(100% - 52px);
+    font-size: 1.25rem;
+    padding: 0.75rem 0 0.75rem 0.75rem;
+    outline: none;
+}
