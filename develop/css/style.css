@@ -43,6 +43,28 @@ hr {
     border: 1px solid lightgray;
 }
 
+.offscreen {
+    position: absolute;
+    left: -10000px;
+}
+
 button {
+    min-width: 48px;
+    min-height: 48px;
+    color: #fff;
+    border: 2px solid lightgray;
+    border-radius: 80px;
+    outline: none;
+    font-size: 1.25rem;
+    font-weight: 900;
+    background-color: transparent;
     cursor: pointer;
 }
+
+.button:hover,
+.button:focus {
+    box-shadow: 4px 2px 5px #000;
+    border-color: #fff;
+}
+
+

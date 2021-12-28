@@ -14,19 +14,19 @@
 <body>
     <main class="container">
         <h1>Weather Forecast Dashboard</h1>
+        <div class="date-container">
+            <div class="date" id="date">
+                December 01, 2021
+            </div>
+        </div>
         <section class="search-bar" id="search-bar">
             <form id="search-form" class="search-form" role="search">
-                <label for="search-text">Enter a location</label>
+                <label for="search-text" class="offscreen">Enter a location</label>
                 <input id="search-text" class="search-text" type="text" role="searchbox" size="40" placeholder="City, State, Country">
                 <button id="search-btn" class="search-btn" title="submit location" aria-label="City, State, and Country to obtain weather conditions">
                     <i class="fas fa-search"></i>
                 </button>
             </form>
-            <div class="date-container">
-                <div class="date" id="date">
-                    December 01, 2021
-                </div>
-            </div>
         </section>
 
         <section class="current-forecast" id="current-forecast" role="region" aria-labelledby="currentforecast-location">
