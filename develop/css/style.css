@@ -36,3 +36,13 @@ main {
     border-radius: 10px;
     box-shadow: 1px 1px 2.5px #fff;
 }
+
+hr {
+    width: 90%;
+    margin: auto;
+    border: 1px solid lightgray;
+}
+
+button {
+    cursor: pointer;
+}
