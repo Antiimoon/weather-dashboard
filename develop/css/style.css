@@ -118,3 +118,15 @@ button {
 .search-form:hover {
     box-shadow: 4px 2px 5px #000;
 }
+
+.nav-btn {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0.5rem 0.25rem;
+}
+
+.currentforecast-location {
+    
+}
