@@ -13,12 +13,10 @@
 </head>
 <body>
     <main class="container">
-        <h1>Weather Forecast Dashboard</h1>
-        <div class="date-container">
-            <div class="date" id="date">
-                December 28, 2021
-            </div>
-        </div>
+        <h1 class="header-text" id="header-text">
+            Weather Forecast Dashboard
+        </h1>
+        
         <section class="search-bar" id="search-bar">
             <form id="search-form" class="search-form" role="search">
                 <label for="search-text" class="offscreen">Enter a location</label>
@@ -53,9 +51,10 @@
             <h2 id="dailyforecast-title" class="dailyforecast-title">Five Day Forecast</h2>
             <div id="dailyforecast-contents" class="dailyforecast-contents"></div>
         </section>
-        <p id="confirmation" class="offscreen" aria-live="assertive"></p>
+
     </main>
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
