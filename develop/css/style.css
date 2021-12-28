@@ -212,7 +212,6 @@ button {
  }
 
  .humidity {
-    
      grid-row: 6 / span 1;
      grid-column: 1 / span 4;
      padding-top: 0.5rem;
@@ -221,7 +220,6 @@ button {
  }
 
  .wind {
-     
      grid-row: 7 span/ 4;
      grid-column: 1/ span 4;
      padding-top: 0.5rem;
